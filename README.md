@@ -56,7 +56,7 @@
 <div align="center">
 
 <a href="https://github.com/yangzhe0/star_catalog_bias">
-  <img width="720" src="https://raw.githubusercontent.com/yangzhe0/star_catalog_bias/main/figures/ucac4_systematics_map.png" alt="UCAC4 systematic bias map" />
+  <img width="720" src="https://raw.githubusercontent.com/yangzhe0/star_catalog_bias/main/ucac4_systematics_map.png" alt="UCAC4 systematic bias map" />
 </a>
 
 </div>
@@ -80,11 +80,6 @@
 </div>
 
 <div align="center">
-
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=yangzhe0&show_icons=true&hide_border=true&theme=transparent" />
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yangzhe0&layout=compact&hide_border=true&theme=transparent" />
-
-<br />
 <br />
 
 <strong>More notes and project writing live at <a href="https://sues.fun">sues.fun</a>.</strong>
