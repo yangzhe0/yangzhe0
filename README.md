@@ -28,7 +28,7 @@
       <p style="margin-top: 15px; margin-bottom: 0;">这里展示了我对高效工作流的探索，以及将学术研究和日常开发打磨成易于理解、运行和复用的开源工具的尝试。</p>
     </td>
     <td valign="middle" align="center" style="border: none; width: 32%; padding-left: 20px;">
-      <img src="avatar.jpg" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" alt="Ray Jones" />
+      <img src="avatar.jpg1" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" alt="Ray Jones" />
     </td>
   </tr>
 </table>
