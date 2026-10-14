@@ -62,8 +62,8 @@
 
 *   [**ScholarPulse**](https://github.com/yangzhe0/project_scholarpulse)：
     本地优先、无第三方依赖的前沿研究情报监测流水线。通过 arXiv Atom API 自动捕获最新论文，归一化去重并调用本地 Ollama (Qwen) 生成结构化中文日报与概览索引。每日通过 systemd 定时调度，成果原子化落盘于 Obsidian，并基于通知契约（JSON）触发 OpenClaw 向 Telegram 投递消息。
-*   [**PaperAgent**](https://github.com/yangzhe0/project_paperagent) | [**Demo**](https://paper.sues.fun)：
-    面向学术论文的本地知识库问答 Agent。基于 Streamlit 框架，集成 MinerU 深度解析、BGE-M3 向量化与 FAISS 检索。设计了**混合查询路由**，优先通过确定性索引处理作者、对比等精确查询，开放式问题再流式进入本地大模型（Ollama）的 RAG 链条，并提供文件级的来源追踪与运行耗时诊断。
+*   [**PaperAgent**](https://github.com/yangzhe0/project_paperagent) | [**Demo**](https://paper.sues.fun) · [**zheoi.com**](https://zheoi.com)：
+    面向深空天体测量与行星历表领域的学术文献智能体。采用**确定性路由优先的混合 RAG 架构**，集成 MinerU 高保真图表提取、1600 字符层次感知切片与 BGE-M3/FAISS 向量检索。无缝融合长上下文与长思维链学术推理内核（Flash / Thinking），支持深空精密历表对比、星表系统差分析与透明思维链推导，每条结论严格关联文件级原文卡片，具备现代双端无缝自适应交互界面。
 *   [**Trae Chat Exporter**](https://github.com/yangzhe0/project_trae_exporter)：
     专门针对 Trae 研发智能体的对话导出工具。利用远程调试协议，自动进行长对话多轮滚动扫描，一键导出生成便于阅读的 HTML、便于整理的 Markdown 以及保留消息元数据的 JSON，完美保存 AI 辅助编程的交互记录。
 
@@ -102,7 +102,7 @@
 | Direction | Entry | Why it exists |
 |---|---|---|
 | AI Academic Pipeline | [ScholarPulse](https://github.com/yangzhe0/project_scholarpulse) | Automate arXiv paper discovery, local Ollama summaries, Obsidian archiving, and Telegram notifications. |
-| Academic RAG Agent | [PaperAgent](https://github.com/yangzhe0/project_paperagent) | A local paper-QA workflow with deterministic route and file-level source tracking. |
+| Academic RAG Agent | [PaperAgent](https://github.com/yangzhe0/project_paperagent) | An astrometry paper-QA agent with deterministic routing, deep reasoning chains, and responsive UI. |
 | AI Chat Backup | [Trae_Chat_Exporter](https://github.com/yangzhe0/project_trae_exporter) | Export active Trae conversations to structured HTML/MD/JSON over debug port. |
 | Catalog Systematic Correction | [star_catalog_bias](https://github.com/yangzhe0/project_scb) | Publish positions and proper motions correction tables for 17 historical catalogs against Gaia DR3. |
 | Observation Ephemeris | [study_ephemeris](https://github.com/yangzhe0/project_ephemeris) | Real-time Jovian satellite ephemeris calculator and DSS finder chart builder. |
